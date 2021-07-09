@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Langu</string>
+    <string name="numbersText">Numbers</string>
+    <string name="familyMembersTextDisplay">Family Members</string>
+    <string name="colorsTextDisplay">Colors</string>
+    <string name="PhrasesDisplay">Phrases</string>
+</resources>

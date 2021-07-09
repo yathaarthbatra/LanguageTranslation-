@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageSingleListItem"
+        android:src="@drawable/number_one"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imageSingleListItem"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="One"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:id="@+id/englishWordSingleItem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toEndOf="@id/imageSingleListItem"
+        app:layout_constraintTop_toBottomOf="@id/englishWordSingleItem"
+        android:text="ek"
+        android:textSize="25dp"
+        android:id="@+id/hindiWordSingleItem"/>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
